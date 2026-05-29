@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Solutions() {
   return (
-    <div className="min-h-full flex flex-col">
+    <div className="min-h-full flex flex-col" id="solutions">
       <div className="my-auto">
         <div className="p-12">
           <p className="text-5xl mb-3">What we do</p>

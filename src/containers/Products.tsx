@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Products() {
   return (
-    <div className="min-h-full flex flex-col">
+    <div className="min-h-full flex flex-col" id="products">
       <div className="grid grid-cols-2 py-12">
         <div className="p-12 my-auto">
           <p className="text-5xl mb-3">Our Tailored Products</p>

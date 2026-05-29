@@ -1,7 +1,9 @@
 import Image from "next/image";
+import CloseIcon from "@/public/close-lg-svgrepo-com.svg";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Roboto_Condensed } from "next/font/google";
 import "./globals.css";
+import RightNav from '@/components/RightNav'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -68,29 +70,7 @@ export default function RootLayout({
                   {children}
                 </div>
 
-                <div className="w-1/6 h-full flex flex-col">
-                  <div className="flex justify-center">
-                    <button className="flex justify-center">
-                      <Image
-                        src="/MenuIcon.svg"
-                        alt=""
-                        width={130}
-                        height={130}
-                        className="p-12"
-                      />
-                    </button>
-                  </div>
-
-                  <button className="mt-auto flex flex-col p-12">
-                    <Image
-                      src="/NextPage.svg"
-                      alt=""
-                      width={130}
-                      height={130}
-                      className="p-12 mx-auto"
-                    />
-                  </button>
-                </div>
+                <RightNav />                
               </div>
             </div>
           </main>

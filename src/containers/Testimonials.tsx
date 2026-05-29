@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Testimonials() {
   return (
-    <div className="min-h-full flex flex-col">
+    <div className="min-h-full flex flex-col" id="testimonials">
       <div className="my-auto">
         <p className="text-5xl p-12">Some words form our clients</p>
         <div className="flex gap-4 px-12 mb-6">
