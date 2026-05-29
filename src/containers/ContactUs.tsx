@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ContactUs() {
   return (
-    <div className="min-h-full flex flex-col">
+    <div className="min-h-full flex flex-col" id="contact">
       <div className="flex ps-12 my-auto">
         <div className="w-4/6">
           <div className="mb-6">

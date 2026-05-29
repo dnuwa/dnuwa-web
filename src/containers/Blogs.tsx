@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Blogs() {
   return (
-    <div className="min-h-full flex flex-col">
+    <div className="min-h-full flex flex-col" id="blogs">
       <div className="my-auto">
         <div className="p-12 my-auto">
           <p className="text-5xl mb-3">The things we have written about</p>
